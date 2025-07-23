@@ -28,7 +28,7 @@ E duas refernciadas no `comandos-git`:
 ![](assets/5.png)
 
 Contudo, como pode ser visto nos prints, a última imagem referenciada estava com outro nome no repositório que dei fork. Para verificar isso, precisei ir até a main do repositório original para confirmar se a minha suspeita estava certa.
-![](assets/8.png)
+![](assets/12.png)
 Ou seja, assim como visto no item 3 do Momento 1, essa imagem apesar de conflitante, não apareceu no momento em que busquei por conflitos.
 
 
