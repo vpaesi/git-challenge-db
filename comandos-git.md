@@ -2,6 +2,10 @@
 
 ```bash
 git clone <url do meu repositório do github> #Pra clonar o repositório localmente que eu já tinha clonado remotamente
+git remote add upstream <link do github que dei fork> #Pra apontar para o repositório original para buscar atualizações do projeto principal
+git fetch upstream #Pra buscar todos os dados do repositório upstream
+git log --oneline develop..upstream/main #Pra ver um resumo dos commits que estão no branch upstream/main e ainda não estão na branch develop
+git diff develop..main #Pra ver as diferenças entre a branch develop e o branch main
 git fetch origin #Pra sincronizar com a branch remota
 git merge origin/main #Pra mesclar as alterações da branch main remota na sua branch atual
 git pull origin main #Pra puxar as alterações da main e verificar se havia conflitos
@@ -22,5 +26,10 @@ git push origin HEAD #Pra subir as alterações na branch atual
 --
 ![](assets/8.png)
 --
-
+![](assets/9.png)
+--
+![](assets/10.png)
+--
+![](assets/11.png)
+--
 ![alt text](assets/meme_programer.jpeg)
